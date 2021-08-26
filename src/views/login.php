@@ -24,7 +24,9 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="email">E-Mail</label>
-                    <input type="email" class="form-control" id = "email" placeholder="Informe o Email"
+                    <input type="email" class="form-control" id = "email" 
+                    value="<?= $_POST['email']>"
+                    placeholder="Informe o Email"
                     autofocus>
                 </div>
                 <div class="form-group">
@@ -39,6 +41,7 @@
                 </div>
         </div>
     </form>
+    <?= ?>
 </body>
 
 </html>
