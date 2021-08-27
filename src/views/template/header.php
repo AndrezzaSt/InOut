@@ -14,11 +14,11 @@
 <body class= "hide-sidebar">
     <header class="header">
         <div class="logo">
-                <i class="iconfont-travelling mr-2 "></i>
+                <i class="icofont-travelling mr-2 "></i>
                 <span class="font-weight-light">IN</span>
                 <span class="font-weight-bold mx-2" >'N</span>
                 <span class="font-weight-light">Out</span>
-                <i class="iconfont-runner-alt-1 ml-2"></i>
+                <i class="icofont-runner-alt-1 ml-2"></i>
         </div>
 
         <div class="menu-toggle mx-3">
@@ -29,18 +29,19 @@
         <div class="spacer">
         <div class="dropdown">
             <div class="dropdown-button">
-                <span> Usuário Mock </span>
-                <i class="icon-font-simple-down ml-2"></i>
-            </div>
-            <div class="dropdown-content">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="logout.php">
-                            <i class="icofont-logout mr-2"></i>
-                            Sair
-                        </a>
-                    </li>
-                </ul>
+                <span class="ml-3"> Usuário Mock </span>
+                <i class="icon-font-simple-down mx-2"></i>
+
+                    <div class="dropdown-content">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="logout.php">
+                                <i class="icofont-logout mr-2"></i>
+                                Sair
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         </div>
