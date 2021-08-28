@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/template.css">
     
+    
     <title>In 'N Out</title>
 </head>
 <body class= "hide-sidebar">
