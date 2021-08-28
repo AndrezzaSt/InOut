@@ -103,6 +103,12 @@ header.header .dropdown-content a {
 
  }
 
+ header .header .avatar {
+     height: 75%;
+     border-radius: 50%;
+     margin-left: 10px;
+ }
+
 aside.sidebar {
     grid-area: sidebar;
     display: flex;
