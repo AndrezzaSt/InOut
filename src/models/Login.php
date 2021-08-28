@@ -1,15 +1,15 @@
 <?php
-loadModel('User');
+
 class Login extends Model {
     
 
     public function validate(){
         $errors = [];
-        if(!this->email) {
+        if(!$this->email) {
             $errors['email'] = 'E-mail é um campo obrigatório';
         }
 
-        if(!this->password) {
+        if(!$this->password) {
             $errors['password'] = 'Senha é um campo obrigatório';
         }
 
@@ -29,7 +29,8 @@ class Login extends Model {
                 return $user;
             }
         }
-    }
         throw new AppException('Usuario/Senha inválidos.');
+    }
+        
 }
 ?>
