@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"name": "InOut",
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"php.validate.executablePath": "C:\\Program Files (x86)\\PHP\\v5.3\\php.exe"
+	}
+}

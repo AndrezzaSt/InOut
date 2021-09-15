@@ -4,7 +4,7 @@ $errors = [];
     if($exception) {
         $message = [
             'type' => 'error',
-            'message' => $exception->getMessage();
+            'message' => $exception->getMessage()
         ];
     }
 
